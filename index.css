@@ -1,12 +1,12 @@
 .header-dark {
     background:rgba(221, 1, 74, 0.541);
     background-size: cover;
-    padding-bottom:20px;
+    padding-bottom:10px;
   }
   
   @media (min-width:768px) {
     .header-dark {
-      padding-bottom:20px;
+      padding-bottom:10px;
     }
   }
   
@@ -41,7 +41,7 @@
   }
   
   .header-dark .navbar .navbar-collapse span .login {
-    color:#d9d9d9;
+    color:#0a0808;
     margin-right:.5rem;
     text-decoration:none;
   }
@@ -112,7 +112,7 @@
   }
   
   .header-dark .navbar .action-button:hover {
-    background:#fc2e5b;
+    background:#ee4d70;
   }
   
   .header-dark .navbar .form-inline label {
