@@ -1,12 +1,12 @@
 .header-dark {
-    background:url('https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg') rgba(221, 1, 74, 0.541);
-    background-size:cover;
-    padding-bottom:80px;
+    background:rgba(221, 1, 74, 0.541);
+    background-size: cover;
+    padding-bottom:20px;
   }
   
   @media (min-width:768px) {
     .header-dark {
-      padding-bottom:120px;
+      padding-bottom:20px;
     }
   }
   
@@ -33,7 +33,7 @@
   }
   
   .header-dark .navbar .navbar-brand:hover {
-    color:#fc7cc6;
+    color:#25101c;
   }
   
   .header-dark .navbar .navbar-collapse span {
