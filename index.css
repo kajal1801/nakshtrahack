@@ -1,5 +1,5 @@
 .header-dark {
-    background:url('https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg') #444;
+    background:url('https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg') rgba(221, 1, 74, 0.541);
     background-size:cover;
     padding-bottom:80px;
   }
@@ -51,7 +51,7 @@
   }
   
   .header-dark .navbar .navbar-toggler {
-    border-color:#747474;
+    border-color:#74747488;
   }
   
   .header-dark .navbar .navbar-toggler:hover, .header-dark .navbar-toggler:focus {
@@ -74,7 +74,7 @@
   }
   
   .header-dark .navbar.navbar-dark .navbar-nav .nav-link {
-    color:#ee4292;
+    color:#0e0c0d;
   }
   
   .header-dark .navbar.navbar-dark .navbar-nav .nav-link:focus, .header-dark .navbar.navbar-dark .navbar-nav .nav-link:hover {
@@ -92,7 +92,7 @@
   .header-dark .navbar .dropdown-menu .dropdown-item:focus, .header-dark .navbar .dropdown-menu .dropdown-item {
     line-height:2;
     font-size:14px;
-    color:#37434d;
+    color:#4d3748;
   }
   
   .header-dark .navbar .dropdown-menu .dropdown-item:focus, .header-dark .navbar .dropdown-menu .drodown-item:hover {
@@ -100,7 +100,7 @@
   }
   
   .header-dark .navbar .action-button, .header-dark .navbar .action-button:active {
-    background:#208f8f;
+    background:#030303;
     border-radius:20px;
     font-size:inherit;
     color:#fff;
@@ -112,11 +112,11 @@
   }
   
   .header-dark .navbar .action-button:hover {
-    background:#269d9d;
+    background:#f59ef5;
   }
   
   .header-dark .navbar .form-inline label {
-    color:#ccc;
+    color:rgb(177, 172, 172);
   }
   
   .header-dark .navbar .form-inline .search-field {
@@ -126,14 +126,18 @@
     border:none;
     border-bottom:1px solid transparent;
     border-radius:0;
-    color:#ccc;
+    color:rgb(10, 10, 10);
     box-shadow:none;
     color:inherit;
     transition:border-bottom-color 0.3s;
   }
   
   .header-dark .navbar .form-inline .search-field:focus {
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid rgb(2, 2, 2);
+  }
+
+  .login{
+    color: black;
   }
   
   .header-dark .hero {
@@ -162,7 +166,7 @@
   }
   
   .header-dark .hero .embed-responsive iframe {
-    background-color:#666;
+    background-color:rgb(5, 5, 5);
   }
 
 
